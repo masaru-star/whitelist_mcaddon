@@ -1,0 +1,26 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Auto Kick System",
+    "description": "JSONリスト外のプレイヤーをキックします",
+    "uuid": "2f31e39b-38e7-4b00-9596-8bea58d7fc3d",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "description": "Scripting Module",
+      "type": "script",
+      "language": "javascript",
+      "uuid": "e7642291-291d-4d4f-a6ac-9d8cacf718c1",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.7.0" 
+    }
+  ]
+}
