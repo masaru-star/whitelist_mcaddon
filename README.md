@@ -1,2 +1,0 @@
-# whitelist_mcaddon
-JSONリスト外のプレイヤーをキックします
